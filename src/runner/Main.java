@@ -5,6 +5,7 @@
 package runner;
 
 import maths.*;
+import util.PrintUtil;
 
 /**
  *
@@ -17,7 +18,7 @@ public class Main {
         NaiveVar vb = new NaiveVar();
         TwoPass tp = new TwoPass();
         Compensation cmp = new Compensation();
-        
+        PrintUtil.PrintLine();
         
         
         double x1[] = {10,15,7,13,20};
