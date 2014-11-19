@@ -8,10 +8,7 @@ public class FactorAnalysis1 {
 		
         
         
-        
-                JavaGrinders.itsStringer.tellln("Running Regression Based Factor Analsysis");
-		
-		JavaGrinders.itsStringer.tellln();
+         
 		
                 String TraceFile = "C:\\Users\\Ecologic\\Documents\\NetBeansProjects\\TheGames\\src\\factor\\Factor2.txt";
                 
@@ -26,9 +23,8 @@ public class FactorAnalysis1 {
 			NumberVariable x = (NumberVariable)myOrganizer.getVariable(0);
 			NumberVariable y = (NumberVariable)myOrganizer.getVariable(1);
 			
-			y.listRegressionResults(x,4); 		// polynomial regression results
-			y.listRegressionResults(x,4,true);	// pol. regr. on centered data
-
+			y.listRegressionResults(x,5); 		// polynomial regression results
+	 
 		} catch (Exception e) { e.printStackTrace(); }
 	}
 }
