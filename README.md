@@ -1,5 +1,4 @@
-TheDOSSGames
-============
+Simulated 
 
-TheDOSSGames
- Baldev
+DDoS attack Model called "The Play " 
+
